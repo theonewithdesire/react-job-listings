@@ -1,0 +1,87 @@
+body{
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkturquoise;
+}
+.account-container{
+  width: 1100px ;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 200px 600px 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px lightgray;
+  border: none;
+  border-radius: 10px;
+}
+.tag{
+  background-color: darkturquoise;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 4px;
+  text-align: center;
+  margin: 7px;
+  cursor: pointer;
+}
+.tag:hover{
+  background-color: black;
+}
+.details{
+  color: gray;
+  font-weight: normal;
+}
+.skill{
+  text-align: center;
+}
+.skill span{
+  background-color: rgb(241, 240, 240);
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+  margin: 6px;
+  cursor: pointer;
+}
+.skill span:hover{
+  background-color: darkturquoise;
+  color : white;
+}
+.job-title{
+  color: black;
+  cursor: pointer;
+}
+.job-title:hover{
+  color : darkturquoise;
+}
+
+.search-bar{
+  padding: 8px 20px;
+  margin: 10px;
+  font-size: 1.5rem;
+  width: 600px;
+  border: 2px solid darkturquoise;
+  border-radius: 5px;
+}
+
+.search-button{
+  padding: 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: darkturquoise;
+  cursor: pointer;
+}
+.search-button:hover{
+  opacity: 0.6;
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
